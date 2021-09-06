@@ -30,7 +30,7 @@
     <h3>center container</h3>
     <div class="container container-center">This is a centerd contaimer and it will go till the specified width</div>
 
-    <hr>
+    <hr  />
 
     <h2>@links</h2>
     <a class="link link-primary" href="/">Primary Link</a>
@@ -72,29 +72,32 @@
     </ul>
     </nav>
     <h2>header</h2>
-    <header>
-    <img src="images/hero.svg" />
-    <h1>Heading</h1>
+    <header class="hero"> 
+    <img class="hero-img" src="images/hero.svg" />
+    <h1 class="hero-heading">Ambarish the <span class="heading-inverted">web developer</span></h1>
     </header>
 
     <hr/>
     <h2>@Section</h2>
-     <section>
-         <h3>White section</h3>
-         <p>This will have white background</p>
+     <section class="section">
+         <div class="container container-center">
+            <h1>White section</h1>
+            <p>This will have white background</p>
+         </div>
+         
      </section>
-     <section>
-        <h3>off White section</h3>
-        <p>This will have gray background</p>
+     <section class="section ow">
+         <div class="container container-center"><h1>off White section</h1>
+            <p>This will have gray background</p></div>
     </section>
     <hr />
     <h2>@footer</h2>
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socailtwo</li>
-            <li>socailthree</li>
+    <footer class="footer">
+        <div class="footer-header"> Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">SocailOne</a></li>
+            <li class="list-item-inline"><a class="link" href="/">SocailTwo</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Socailthree</a></li>
         </ul>
     </footer>
      
