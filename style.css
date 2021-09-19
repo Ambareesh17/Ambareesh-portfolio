@@ -5,7 +5,7 @@ body
     sans-serif;
     margin: 0px;
 }
-:root{--primary-color:#5910d6;
+:root{--primary-color:#7e4fd6;
     --dark-gray:#6b7280;
     --off-white:#f3f4f6;
 }
@@ -40,6 +40,11 @@ margin: auto;
     border-radius: 0.5rem;
     border: 1px solid var
     (--primary-color);
+}
+/**spaces**/
+hr
+{
+    margin: 2rem;
 }
 /**lists**/
 .list-non-bullet
